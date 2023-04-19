@@ -5,10 +5,10 @@ spring:
     name: goods
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/hero_goods?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    url: jdbc:mysql://120.46.152.202:3306/hero_goods?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
     username: root
     password: root
   cloud:
     nacos:
       discovery:
-        server-addr: 127.0.0.1:8848
+        server-addr: 120.46.152.202:8848
