@@ -16,6 +16,7 @@
         <module>hero_web</module>
         <module>hero_common</module>
         <module>hero_common_db</module>
+        <module>hero_service_file</module>
     </modules>
 
     <parent>
